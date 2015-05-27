@@ -7,9 +7,20 @@ no storyboard, no pods, plain project using shapelib
 - draws only polygons so far
 - primitive optimization, no scale optimization
 
-drawing approach is taken from this post: http://stackoverflow.com/questions/17673410/mkmapview-with-multiple-overlays-memory-issue
-other inspiration from http://www.al-tyus.com/blog/2013/10/14/mapkit-and-esri-shapefiles 
+polygons from shapefile are read in  MultiPolygonOverlay : NSObject <MKOverlay>
 
-Parcel dala from open data of Prague here: http://www.geoportalpraha.cz
+        MultiPolygonOverlay *shpPolygonsOverlay =  [[MultiPolygonOverlay alloc]
+                                                initWithLocalShpFile:[resourcePath stringByAppendingPathComponent:@"DOKMPARCELA_P"]];
+    
+drawing of MultiPolygonOverlay is on  MultiPolygonRenderer : MKOverlayPathRenderer  -drawMapRect
+
+
+
+
+credits/inspiration:
+drawing : http://stackoverflow.com/questions/17673410/mkmapview-with-multiple-overlays-memory-issue
+parsing :  from http://www.al-tyus.com/blog/2013/10/14/mapkit-and-esri-shapefiles 
+shapelib: from http://shapelib.maptools.org
+dala: http://www.geoportalpraha.cz
 
 
