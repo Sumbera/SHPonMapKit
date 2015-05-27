@@ -7,16 +7,33 @@
 
 
 #import "MultiPolygonOverlay.h"
+#import "shpPolygons.h"
 
 @implementation MultiPolygonOverlay
 
 @synthesize polygons = _polygons;
 
-
 //------------------------------------------------------
-- (id)initWithPolygons:(NSArray *)polygons
-{
-    
+- (id)initWithLocalShpFile:(NSString *)filePath{
+   if (self = [super init]) {
+   
+       _polygons = getPolygonsFromShapeFile(filePath);
+       NSUInteger polyCount = [_polygons count];
+       if (polyCount) {
+           _boundingMapRect = [[_polygons objectAtIndex:0] boundingMapRect];
+           NSUInteger i;
+           for (i = 1; i < polyCount; i++) {
+               _boundingMapRect = MKMapRectUnion(_boundingMapRect, [[_polygons objectAtIndex:i] boundingMapRect]);
+           }
+       }
+       
+       
+    }
+    return self;
+ 
+}
+//------------------------------------------------------
+- (id)initWithPolygons:(NSArray *)polygons {
     if (self = [super init]) {
         _polygons = [polygons copy];
         

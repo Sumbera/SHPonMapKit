@@ -9,7 +9,7 @@
 #import "MapViewController.h"
 #import "MultiPolygonOverlay.h"
 #import "MultiPolygonRenderer.h"
-#import "shpPolygons.h"
+
 
 @implementation MapViewController
 
@@ -53,14 +53,14 @@
     
     
     
-    NSString *pathComponent = @"DOKMPARCELA_P";
+
     
     NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
-    NSArray  *allPolygons = getPolygonsFromShapeFile([resourcePath stringByAppendingPathComponent:pathComponent]);
-    MultiPolygonOverlay *allPolygonsInOne = [[MultiPolygonOverlay alloc] initWithPolygons:allPolygons];
+    MultiPolygonOverlay *shpPolygonsOverlay =  [[MultiPolygonOverlay alloc]
+                                                initWithLocalShpFile:[resourcePath stringByAppendingPathComponent:@"DOKMPARCELA_P"]];
     
     
-    [mkMapView  addOverlay:allPolygonsInOne];
+    [mkMapView  addOverlay:shpPolygonsOverlay];
 }
 
 

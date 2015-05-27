@@ -14,6 +14,10 @@
 }
 
 - (id)initWithPolygons:(NSArray *)polygons;
+
+- (id)initWithLocalShpFile:(NSString *)filePath;
+
+
 @property (nonatomic, readonly) NSArray *polygons;
 
 @end
