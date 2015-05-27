@@ -2,7 +2,7 @@
 Drawing shape file polygons on MapKit
 
 Simple & strightforward  test of loading shape file and drawing it on MapKit using drawMapRect. 
-no storyboard, no pods, plain project using shapelib 
+no storyboard, no pods, no swift, plain project using shapelib 
 
 - draws only polygons so far
 - primitive optimization, no scale optimization
