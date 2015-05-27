@@ -20,8 +20,8 @@ drawing of MultiPolygonOverlay is on  MultiPolygonRenderer : MKOverlayPathRender
 credits/inspiration:
 
 - drawing : http://stackoverflow.com/questions/17673410/mkmapview-with-multiple-overlays-memory-issue
-- parsing :  from http://www.al-tyus.com/blog/2013/10/14/mapkit-and-esri-shapefiles 
-- shapelib: from http://shapelib.maptools.org
+- parsing : http://www.al-tyus.com/blog/2013/10/14/mapkit-and-esri-shapefiles 
+- shapelib: http://shapelib.maptools.org
 - dala: http://www.geoportalpraha.cz
 
 
