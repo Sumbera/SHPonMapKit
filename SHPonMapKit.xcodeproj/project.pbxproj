@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A75C5171B15FD810036F8F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5161B15FD810036F8F7 /* main.m */; };
+		5A75C51A1B15FD810036F8F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5191B15FD810036F8F7 /* AppDelegate.m */; };
+		5A75C5221B15FD810036F8F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5211B15FD810036F8F7 /* Images.xcassets */; };
+		5A75C5311B15FD820036F8F7 /* SHPonMapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5301B15FD820036F8F7 /* SHPonMapKitTests.m */; };
+		5A75C53C1B15FE9C0036F8F7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C53B1B15FE9C0036F8F7 /* MapViewController.m */; };
+		5A75C5431B15FF9D0036F8F7 /* MultiPolygonOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C53F1B15FF9D0036F8F7 /* MultiPolygonOverlay.m */; };
+		5A75C5441B15FF9D0036F8F7 /* MultiPolygonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5411B15FF9D0036F8F7 /* MultiPolygonRenderer.m */; };
+		5A75C5641B1600980036F8F7 /* states.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5521B1600980036F8F7 /* states.dbf */; };
+		5A75C5651B1600980036F8F7 /* states.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5531B1600980036F8F7 /* states.prj */; };
+		5A75C5661B1600980036F8F7 /* states.sbn in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5541B1600980036F8F7 /* states.sbn */; };
+		5A75C5671B1600980036F8F7 /* states.sbx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5551B1600980036F8F7 /* states.sbx */; };
+		5A75C5681B1600980036F8F7 /* states.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5561B1600980036F8F7 /* states.shp */; };
+		5A75C5691B1600980036F8F7 /* states.shp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5571B1600980036F8F7 /* states.shp.xml */; };
+		5A75C56A1B1600980036F8F7 /* states.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5581B1600980036F8F7 /* states.shx */; };
+		5A75C5761B1600E20036F8F7 /* states.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5521B1600980036F8F7 /* states.dbf */; };
+		5A75C5771B1600E20036F8F7 /* states.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5531B1600980036F8F7 /* states.prj */; };
+		5A75C5781B1600E20036F8F7 /* states.sbn in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5541B1600980036F8F7 /* states.sbn */; };
+		5A75C5791B1600E20036F8F7 /* states.sbx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5551B1600980036F8F7 /* states.sbx */; };
+		5A75C57A1B1600E20036F8F7 /* states.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5561B1600980036F8F7 /* states.shp */; };
+		5A75C57B1B1600E20036F8F7 /* states.shp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5571B1600980036F8F7 /* states.shp.xml */; };
+		5A75C57C1B1600E20036F8F7 /* states.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5581B1600980036F8F7 /* states.shx */; };
+		5A75C5931B16015D0036F8F7 /* dbfopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5811B16015D0036F8F7 /* dbfopen.c */; };
+		5A75C5971B16015D0036F8F7 /* safileio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5851B16015D0036F8F7 /* safileio.c */; };
+		5A75C59B1B16015D0036F8F7 /* shpopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C58A1B16015D0036F8F7 /* shpopen.c */; };
+		5A75C59E1B16015D0036F8F7 /* shptree.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C58D1B16015D0036F8F7 /* shptree.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A75C52B1B15FD820036F8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A75C5091B15FD810036F8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A75C5101B15FD810036F8F7;
+			remoteInfo = SHPonMapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A75C5111B15FD810036F8F7 /* SHPonMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHPonMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A75C5151B15FD810036F8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A75C5161B15FD810036F8F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A75C5181B15FD810036F8F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A75C5191B15FD810036F8F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A75C5211B15FD810036F8F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A75C52A1B15FD820036F8F7 /* SHPonMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHPonMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A75C52F1B15FD820036F8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A75C5301B15FD820036F8F7 /* SHPonMapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPonMapKitTests.m; sourceTree = "<group>"; };
+		5A75C53A1B15FE9C0036F8F7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		5A75C53B1B15FE9C0036F8F7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		5A75C53E1B15FF9D0036F8F7 /* MultiPolygonOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPolygonOverlay.h; sourceTree = "<group>"; };
+		5A75C53F1B15FF9D0036F8F7 /* MultiPolygonOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPolygonOverlay.m; sourceTree = "<group>"; };
+		5A75C5401B15FF9D0036F8F7 /* MultiPolygonRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPolygonRenderer.h; sourceTree = "<group>"; };
+		5A75C5411B15FF9D0036F8F7 /* MultiPolygonRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPolygonRenderer.m; sourceTree = "<group>"; };
+		5A75C5421B15FF9D0036F8F7 /* shpPolygons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shpPolygons.h; sourceTree = "<group>"; };
+		5A75C5521B1600980036F8F7 /* states.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.dbf; sourceTree = "<group>"; };
+		5A75C5531B1600980036F8F7 /* states.prj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = states.prj; sourceTree = "<group>"; };
+		5A75C5541B1600980036F8F7 /* states.sbn */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbn; sourceTree = "<group>"; };
+		5A75C5551B1600980036F8F7 /* states.sbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbx; sourceTree = "<group>"; };
+		5A75C5561B1600980036F8F7 /* states.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shp; sourceTree = "<group>"; };
+		5A75C5571B1600980036F8F7 /* states.shp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = states.shp.xml; sourceTree = "<group>"; };
+		5A75C5581B1600980036F8F7 /* states.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shx; sourceTree = "<group>"; };
+		5A75C5811B16015D0036F8F7 /* dbfopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbfopen.c; sourceTree = "<group>"; };
+		5A75C5851B16015D0036F8F7 /* safileio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = safileio.c; sourceTree = "<group>"; };
+		5A75C5861B16015D0036F8F7 /* shapefil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapefil.h; sourceTree = "<group>"; };
+		5A75C58A1B16015D0036F8F7 /* shpopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shpopen.c; sourceTree = "<group>"; };
+		5A75C58D1B16015D0036F8F7 /* shptree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shptree.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A75C50E1B15FD810036F8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A75C5271B15FD820036F8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A75C5081B15FD810036F8F7 = {
+			isa = PBXGroup;
+			children = (
+				5A75C5131B15FD810036F8F7 /* SHPonMapKit */,
+				5A75C52D1B15FD820036F8F7 /* SHPonMapKitTests */,
+				5A75C5121B15FD810036F8F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A75C5121B15FD810036F8F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C5111B15FD810036F8F7 /* SHPonMapKit.app */,
+				5A75C52A1B15FD820036F8F7 /* SHPonMapKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A75C5131B15FD810036F8F7 /* SHPonMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C57D1B16015D0036F8F7 /* shapelib */,
+				5A75C5451B1600980036F8F7 /* Data */,
+				5A75C53D1B15FF9D0036F8F7 /* SHPOverlay */,
+				5A75C53A1B15FE9C0036F8F7 /* MapViewController.h */,
+				5A75C53B1B15FE9C0036F8F7 /* MapViewController.m */,
+				5A75C5181B15FD810036F8F7 /* AppDelegate.h */,
+				5A75C5191B15FD810036F8F7 /* AppDelegate.m */,
+				5A75C5211B15FD810036F8F7 /* Images.xcassets */,
+				5A75C5141B15FD810036F8F7 /* Supporting Files */,
+			);
+			path = SHPonMapKit;
+			sourceTree = "<group>";
+		};
+		5A75C5141B15FD810036F8F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C5151B15FD810036F8F7 /* Info.plist */,
+				5A75C5161B15FD810036F8F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A75C52D1B15FD820036F8F7 /* SHPonMapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C5301B15FD820036F8F7 /* SHPonMapKitTests.m */,
+				5A75C52E1B15FD820036F8F7 /* Supporting Files */,
+			);
+			path = SHPonMapKitTests;
+			sourceTree = "<group>";
+		};
+		5A75C52E1B15FD820036F8F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C52F1B15FD820036F8F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A75C53D1B15FF9D0036F8F7 /* SHPOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C53E1B15FF9D0036F8F7 /* MultiPolygonOverlay.h */,
+				5A75C53F1B15FF9D0036F8F7 /* MultiPolygonOverlay.m */,
+				5A75C5401B15FF9D0036F8F7 /* MultiPolygonRenderer.h */,
+				5A75C5411B15FF9D0036F8F7 /* MultiPolygonRenderer.m */,
+				5A75C5421B15FF9D0036F8F7 /* shpPolygons.h */,
+			);
+			path = SHPOverlay;
+			sourceTree = "<group>";
+		};
+		5A75C5451B1600980036F8F7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C5521B1600980036F8F7 /* states.dbf */,
+				5A75C5531B1600980036F8F7 /* states.prj */,
+				5A75C5541B1600980036F8F7 /* states.sbn */,
+				5A75C5551B1600980036F8F7 /* states.sbx */,
+				5A75C5561B1600980036F8F7 /* states.shp */,
+				5A75C5571B1600980036F8F7 /* states.shp.xml */,
+				5A75C5581B1600980036F8F7 /* states.shx */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5A75C57D1B16015D0036F8F7 /* shapelib */ = {
+			isa = PBXGroup;
+			children = (
+				5A75C5811B16015D0036F8F7 /* dbfopen.c */,
+				5A75C5851B16015D0036F8F7 /* safileio.c */,
+				5A75C5861B16015D0036F8F7 /* shapefil.h */,
+				5A75C58A1B16015D0036F8F7 /* shpopen.c */,
+				5A75C58D1B16015D0036F8F7 /* shptree.c */,
+			);
+			path = shapelib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A75C5101B15FD810036F8F7 /* SHPonMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A75C5341B15FD820036F8F7 /* Build configuration list for PBXNativeTarget "SHPonMapKit" */;
+			buildPhases = (
+				5A75C50D1B15FD810036F8F7 /* Sources */,
+				5A75C50E1B15FD810036F8F7 /* Frameworks */,
+				5A75C50F1B15FD810036F8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHPonMapKit;
+			productName = SHPonMapKit;
+			productReference = 5A75C5111B15FD810036F8F7 /* SHPonMapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A75C5291B15FD820036F8F7 /* SHPonMapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A75C5371B15FD820036F8F7 /* Build configuration list for PBXNativeTarget "SHPonMapKitTests" */;
+			buildPhases = (
+				5A75C5261B15FD820036F8F7 /* Sources */,
+				5A75C5271B15FD820036F8F7 /* Frameworks */,
+				5A75C5281B15FD820036F8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A75C52C1B15FD820036F8F7 /* PBXTargetDependency */,
+			);
+			name = SHPonMapKitTests;
+			productName = SHPonMapKitTests;
+			productReference = 5A75C52A1B15FD820036F8F7 /* SHPonMapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A75C5091B15FD810036F8F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sumbera;
+				TargetAttributes = {
+					5A75C5101B15FD810036F8F7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5A75C5291B15FD820036F8F7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5A75C5101B15FD810036F8F7;
+					};
+				};
+			};
+			buildConfigurationList = 5A75C50C1B15FD810036F8F7 /* Build configuration list for PBXProject "SHPonMapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A75C5081B15FD810036F8F7;
+			productRefGroup = 5A75C5121B15FD810036F8F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A75C5101B15FD810036F8F7 /* SHPonMapKit */,
+				5A75C5291B15FD820036F8F7 /* SHPonMapKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A75C50F1B15FD810036F8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A75C5681B1600980036F8F7 /* states.shp in Resources */,
+				5A75C5221B15FD810036F8F7 /* Images.xcassets in Resources */,
+				5A75C5671B1600980036F8F7 /* states.sbx in Resources */,
+				5A75C5661B1600980036F8F7 /* states.sbn in Resources */,
+				5A75C5651B1600980036F8F7 /* states.prj in Resources */,
+				5A75C5691B1600980036F8F7 /* states.shp.xml in Resources */,
+				5A75C5641B1600980036F8F7 /* states.dbf in Resources */,
+				5A75C56A1B1600980036F8F7 /* states.shx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A75C5281B15FD820036F8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A75C5761B1600E20036F8F7 /* states.dbf in Resources */,
+				5A75C5771B1600E20036F8F7 /* states.prj in Resources */,
+				5A75C5781B1600E20036F8F7 /* states.sbn in Resources */,
+				5A75C5791B1600E20036F8F7 /* states.sbx in Resources */,
+				5A75C57A1B1600E20036F8F7 /* states.shp in Resources */,
+				5A75C57B1B1600E20036F8F7 /* states.shp.xml in Resources */,
+				5A75C57C1B1600E20036F8F7 /* states.shx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A75C50D1B15FD810036F8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A75C5441B15FF9D0036F8F7 /* MultiPolygonRenderer.m in Sources */,
+				5A75C51A1B15FD810036F8F7 /* AppDelegate.m in Sources */,
+				5A75C59B1B16015D0036F8F7 /* shpopen.c in Sources */,
+				5A75C59E1B16015D0036F8F7 /* shptree.c in Sources */,
+				5A75C5971B16015D0036F8F7 /* safileio.c in Sources */,
+				5A75C5171B15FD810036F8F7 /* main.m in Sources */,
+				5A75C5431B15FF9D0036F8F7 /* MultiPolygonOverlay.m in Sources */,
+				5A75C5931B16015D0036F8F7 /* dbfopen.c in Sources */,
+				5A75C53C1B15FE9C0036F8F7 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A75C5261B15FD820036F8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A75C5311B15FD820036F8F7 /* SHPonMapKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A75C52C1B15FD820036F8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A75C5101B15FD810036F8F7 /* SHPonMapKit */;
+			targetProxy = 5A75C52B1B15FD820036F8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A75C5321B15FD820036F8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A75C5331B15FD820036F8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A75C5351B15FD820036F8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHPonMapKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A75C5361B15FD820036F8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHPonMapKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A75C5381B15FD820036F8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SHPonMapKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHPonMapKit.app/SHPonMapKit";
+			};
+			name = Debug;
+		};
+		5A75C5391B15FD820036F8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SHPonMapKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHPonMapKit.app/SHPonMapKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A75C50C1B15FD810036F8F7 /* Build configuration list for PBXProject "SHPonMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A75C5321B15FD820036F8F7 /* Debug */,
+				5A75C5331B15FD820036F8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A75C5341B15FD820036F8F7 /* Build configuration list for PBXNativeTarget "SHPonMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A75C5351B15FD820036F8F7 /* Debug */,
+				5A75C5361B15FD820036F8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A75C5371B15FD820036F8F7 /* Build configuration list for PBXNativeTarget "SHPonMapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A75C5381B15FD820036F8F7 /* Debug */,
+				5A75C5391B15FD820036F8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A75C5091B15FD810036F8F7 /* Project object */;
+}
