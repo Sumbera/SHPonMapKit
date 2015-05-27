@@ -24,6 +24,9 @@
 		5AAB74F71B1612CE002FCA31 /* states.sbx in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F11B1612CE002FCA31 /* states.sbx */; };
 		5AAB74F81B1612CE002FCA31 /* states.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F21B1612CE002FCA31 /* states.shp */; };
 		5AAB74F91B1612CE002FCA31 /* states.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F31B1612CE002FCA31 /* states.shx */; };
+		5AAB74FE1B16144A002FCA31 /* DOKMPARCELA_P.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74FB1B16144A002FCA31 /* DOKMPARCELA_P.prj */; };
+		5AAB74FF1B16144A002FCA31 /* DOKMPARCELA_P.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74FC1B16144A002FCA31 /* DOKMPARCELA_P.shp */; };
+		5AAB75001B16144A002FCA31 /* DOKMPARCELA_P.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74FD1B16144A002FCA31 /* DOKMPARCELA_P.shx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		5AAB74F11B1612CE002FCA31 /* states.sbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbx; sourceTree = "<group>"; };
 		5AAB74F21B1612CE002FCA31 /* states.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shp; sourceTree = "<group>"; };
 		5AAB74F31B1612CE002FCA31 /* states.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shx; sourceTree = "<group>"; };
+		5AAB74FB1B16144A002FCA31 /* DOKMPARCELA_P.prj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DOKMPARCELA_P.prj; sourceTree = "<group>"; };
+		5AAB74FC1B16144A002FCA31 /* DOKMPARCELA_P.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = DOKMPARCELA_P.shp; sourceTree = "<group>"; };
+		5AAB74FD1B16144A002FCA31 /* DOKMPARCELA_P.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = DOKMPARCELA_P.shx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		5A75C5451B1600980036F8F7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				5AAB74FA1B161449002FCA31 /* DOKMPARCELA_P_shp */,
 				5AAB74ED1B1612CE002FCA31 /* usstates */,
 			);
 			path = Data;
@@ -187,6 +194,16 @@
 				5AAB74F31B1612CE002FCA31 /* states.shx */,
 			);
 			path = usstates;
+			sourceTree = "<group>";
+		};
+		5AAB74FA1B161449002FCA31 /* DOKMPARCELA_P_shp */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB74FB1B16144A002FCA31 /* DOKMPARCELA_P.prj */,
+				5AAB74FC1B16144A002FCA31 /* DOKMPARCELA_P.shp */,
+				5AAB74FD1B16144A002FCA31 /* DOKMPARCELA_P.shx */,
+			);
+			path = DOKMPARCELA_P_shp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +290,10 @@
 				5AAB74F91B1612CE002FCA31 /* states.shx in Resources */,
 				5AAB74F81B1612CE002FCA31 /* states.shp in Resources */,
 				5A75C5221B15FD810036F8F7 /* Images.xcassets in Resources */,
+				5AAB74FF1B16144A002FCA31 /* DOKMPARCELA_P.shp in Resources */,
 				5AAB74F51B1612CE002FCA31 /* states.prj in Resources */,
+				5AAB75001B16144A002FCA31 /* DOKMPARCELA_P.shx in Resources */,
+				5AAB74FE1B16144A002FCA31 /* DOKMPARCELA_P.prj in Resources */,
 				5AAB74F61B1612CE002FCA31 /* states.sbn in Resources */,
 				5AAB74F71B1612CE002FCA31 /* states.sbx in Resources */,
 			);

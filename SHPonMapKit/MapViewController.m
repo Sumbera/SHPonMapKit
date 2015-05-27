@@ -43,11 +43,17 @@
     mkMapView.delegate = self;
     
  
-    [mkMapView setCenterCoordinate:CLLocationCoordinate2DMake(49, -100)];
-   
+    MKMapCamera *camera1 = [MKMapCamera
+                            cameraLookingAtCenterCoordinate:   (CLLocationCoordinate2D){ .latitude = 50.1, .longitude = 14.6}
+                            fromEyeCoordinate: (CLLocationCoordinate2D){ .latitude = 50.12, .longitude = 14.62}
+                            eyeAltitude:80.0];
+    
+    [mkMapView setCamera:camera1 animated:YES];
+
     
     
-    NSString *pathComponent = @"states";
+    
+    NSString *pathComponent = @"DOKMPARCELA_P";
     
     NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
     NSArray  *allPolygons = getPolygonsFromShapeFile([resourcePath stringByAppendingPathComponent:pathComponent]);
