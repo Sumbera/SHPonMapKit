@@ -14,24 +14,16 @@
 		5A75C53C1B15FE9C0036F8F7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C53B1B15FE9C0036F8F7 /* MapViewController.m */; };
 		5A75C5431B15FF9D0036F8F7 /* MultiPolygonOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C53F1B15FF9D0036F8F7 /* MultiPolygonOverlay.m */; };
 		5A75C5441B15FF9D0036F8F7 /* MultiPolygonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5411B15FF9D0036F8F7 /* MultiPolygonRenderer.m */; };
-		5A75C5641B1600980036F8F7 /* states.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5521B1600980036F8F7 /* states.dbf */; };
-		5A75C5651B1600980036F8F7 /* states.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5531B1600980036F8F7 /* states.prj */; };
-		5A75C5661B1600980036F8F7 /* states.sbn in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5541B1600980036F8F7 /* states.sbn */; };
-		5A75C5671B1600980036F8F7 /* states.sbx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5551B1600980036F8F7 /* states.sbx */; };
-		5A75C5681B1600980036F8F7 /* states.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5561B1600980036F8F7 /* states.shp */; };
-		5A75C5691B1600980036F8F7 /* states.shp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5571B1600980036F8F7 /* states.shp.xml */; };
-		5A75C56A1B1600980036F8F7 /* states.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5581B1600980036F8F7 /* states.shx */; };
-		5A75C5761B1600E20036F8F7 /* states.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5521B1600980036F8F7 /* states.dbf */; };
-		5A75C5771B1600E20036F8F7 /* states.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5531B1600980036F8F7 /* states.prj */; };
-		5A75C5781B1600E20036F8F7 /* states.sbn in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5541B1600980036F8F7 /* states.sbn */; };
-		5A75C5791B1600E20036F8F7 /* states.sbx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5551B1600980036F8F7 /* states.sbx */; };
-		5A75C57A1B1600E20036F8F7 /* states.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5561B1600980036F8F7 /* states.shp */; };
-		5A75C57B1B1600E20036F8F7 /* states.shp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5571B1600980036F8F7 /* states.shp.xml */; };
-		5A75C57C1B1600E20036F8F7 /* states.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5A75C5581B1600980036F8F7 /* states.shx */; };
 		5A75C5931B16015D0036F8F7 /* dbfopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5811B16015D0036F8F7 /* dbfopen.c */; };
 		5A75C5971B16015D0036F8F7 /* safileio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C5851B16015D0036F8F7 /* safileio.c */; };
 		5A75C59B1B16015D0036F8F7 /* shpopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C58A1B16015D0036F8F7 /* shpopen.c */; };
 		5A75C59E1B16015D0036F8F7 /* shptree.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A75C58D1B16015D0036F8F7 /* shptree.c */; };
+		5AAB74F41B1612CE002FCA31 /* states.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74EE1B1612CE002FCA31 /* states.dbf */; };
+		5AAB74F51B1612CE002FCA31 /* states.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74EF1B1612CE002FCA31 /* states.prj */; };
+		5AAB74F61B1612CE002FCA31 /* states.sbn in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F01B1612CE002FCA31 /* states.sbn */; };
+		5AAB74F71B1612CE002FCA31 /* states.sbx in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F11B1612CE002FCA31 /* states.sbx */; };
+		5AAB74F81B1612CE002FCA31 /* states.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F21B1612CE002FCA31 /* states.shp */; };
+		5AAB74F91B1612CE002FCA31 /* states.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74F31B1612CE002FCA31 /* states.shx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,18 +53,17 @@
 		5A75C5401B15FF9D0036F8F7 /* MultiPolygonRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPolygonRenderer.h; sourceTree = "<group>"; };
 		5A75C5411B15FF9D0036F8F7 /* MultiPolygonRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPolygonRenderer.m; sourceTree = "<group>"; };
 		5A75C5421B15FF9D0036F8F7 /* shpPolygons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shpPolygons.h; sourceTree = "<group>"; };
-		5A75C5521B1600980036F8F7 /* states.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.dbf; sourceTree = "<group>"; };
-		5A75C5531B1600980036F8F7 /* states.prj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = states.prj; sourceTree = "<group>"; };
-		5A75C5541B1600980036F8F7 /* states.sbn */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbn; sourceTree = "<group>"; };
-		5A75C5551B1600980036F8F7 /* states.sbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbx; sourceTree = "<group>"; };
-		5A75C5561B1600980036F8F7 /* states.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shp; sourceTree = "<group>"; };
-		5A75C5571B1600980036F8F7 /* states.shp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = states.shp.xml; sourceTree = "<group>"; };
-		5A75C5581B1600980036F8F7 /* states.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shx; sourceTree = "<group>"; };
 		5A75C5811B16015D0036F8F7 /* dbfopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbfopen.c; sourceTree = "<group>"; };
 		5A75C5851B16015D0036F8F7 /* safileio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = safileio.c; sourceTree = "<group>"; };
 		5A75C5861B16015D0036F8F7 /* shapefil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapefil.h; sourceTree = "<group>"; };
 		5A75C58A1B16015D0036F8F7 /* shpopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shpopen.c; sourceTree = "<group>"; };
 		5A75C58D1B16015D0036F8F7 /* shptree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shptree.c; sourceTree = "<group>"; };
+		5AAB74EE1B1612CE002FCA31 /* states.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.dbf; sourceTree = "<group>"; };
+		5AAB74EF1B1612CE002FCA31 /* states.prj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = states.prj; sourceTree = "<group>"; };
+		5AAB74F01B1612CE002FCA31 /* states.sbn */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbn; sourceTree = "<group>"; };
+		5AAB74F11B1612CE002FCA31 /* states.sbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.sbx; sourceTree = "<group>"; };
+		5AAB74F21B1612CE002FCA31 /* states.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shp; sourceTree = "<group>"; };
+		5AAB74F31B1612CE002FCA31 /* states.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = states.shx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,13 +159,7 @@
 		5A75C5451B1600980036F8F7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				5A75C5521B1600980036F8F7 /* states.dbf */,
-				5A75C5531B1600980036F8F7 /* states.prj */,
-				5A75C5541B1600980036F8F7 /* states.sbn */,
-				5A75C5551B1600980036F8F7 /* states.sbx */,
-				5A75C5561B1600980036F8F7 /* states.shp */,
-				5A75C5571B1600980036F8F7 /* states.shp.xml */,
-				5A75C5581B1600980036F8F7 /* states.shx */,
+				5AAB74ED1B1612CE002FCA31 /* usstates */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -189,6 +174,19 @@
 				5A75C58D1B16015D0036F8F7 /* shptree.c */,
 			);
 			path = shapelib;
+			sourceTree = "<group>";
+		};
+		5AAB74ED1B1612CE002FCA31 /* usstates */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB74EE1B1612CE002FCA31 /* states.dbf */,
+				5AAB74EF1B1612CE002FCA31 /* states.prj */,
+				5AAB74F01B1612CE002FCA31 /* states.sbn */,
+				5AAB74F11B1612CE002FCA31 /* states.sbx */,
+				5AAB74F21B1612CE002FCA31 /* states.shp */,
+				5AAB74F31B1612CE002FCA31 /* states.shx */,
+			);
+			path = usstates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,14 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A75C5681B1600980036F8F7 /* states.shp in Resources */,
+				5AAB74F41B1612CE002FCA31 /* states.dbf in Resources */,
+				5AAB74F91B1612CE002FCA31 /* states.shx in Resources */,
+				5AAB74F81B1612CE002FCA31 /* states.shp in Resources */,
 				5A75C5221B15FD810036F8F7 /* Images.xcassets in Resources */,
-				5A75C5671B1600980036F8F7 /* states.sbx in Resources */,
-				5A75C5661B1600980036F8F7 /* states.sbn in Resources */,
-				5A75C5651B1600980036F8F7 /* states.prj in Resources */,
-				5A75C5691B1600980036F8F7 /* states.shp.xml in Resources */,
-				5A75C5641B1600980036F8F7 /* states.dbf in Resources */,
-				5A75C56A1B1600980036F8F7 /* states.shx in Resources */,
+				5AAB74F51B1612CE002FCA31 /* states.prj in Resources */,
+				5AAB74F61B1612CE002FCA31 /* states.sbn in Resources */,
+				5AAB74F71B1612CE002FCA31 /* states.sbx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A75C5761B1600E20036F8F7 /* states.dbf in Resources */,
-				5A75C5771B1600E20036F8F7 /* states.prj in Resources */,
-				5A75C5781B1600E20036F8F7 /* states.sbn in Resources */,
-				5A75C5791B1600E20036F8F7 /* states.sbx in Resources */,
-				5A75C57A1B1600E20036F8F7 /* states.shp in Resources */,
-				5A75C57B1B1600E20036F8F7 /* states.shp.xml in Resources */,
-				5A75C57C1B1600E20036F8F7 /* states.shx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
