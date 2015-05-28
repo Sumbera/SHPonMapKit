@@ -61,6 +61,7 @@
                 CGContextBeginPath(context);
                 CGContextAddPath(context, path);
                 CGContextStrokePath(context);
+                
                 CGPathRelease(path);
             }
         }

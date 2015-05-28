@@ -26,6 +26,7 @@
 		5AAB74FE1B16144A002FCA31 /* DOKMPARCELA_P.prj in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74FB1B16144A002FCA31 /* DOKMPARCELA_P.prj */; };
 		5AAB74FF1B16144A002FCA31 /* DOKMPARCELA_P.shp in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74FC1B16144A002FCA31 /* DOKMPARCELA_P.shp */; };
 		5AAB75001B16144A002FCA31 /* DOKMPARCELA_P.shx in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB74FD1B16144A002FCA31 /* DOKMPARCELA_P.shx */; };
+		5AAB75031B162112002FCA31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AAB75021B162112002FCA31 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		5AAB74FB1B16144A002FCA31 /* DOKMPARCELA_P.prj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DOKMPARCELA_P.prj; sourceTree = "<group>"; };
 		5AAB74FC1B16144A002FCA31 /* DOKMPARCELA_P.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = DOKMPARCELA_P.shp; sourceTree = "<group>"; };
 		5AAB74FD1B16144A002FCA31 /* DOKMPARCELA_P.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = DOKMPARCELA_P.shx; sourceTree = "<group>"; };
+		5AAB75021B162112002FCA31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		5A75C5081B15FD810036F8F7 = {
 			isa = PBXGroup;
 			children = (
+				5AAB75021B162112002FCA31 /* Default-568h@2x.png */,
 				5A75C5131B15FD810036F8F7 /* SHPonMapKit */,
 				5A75C5121B15FD810036F8F7 /* Products */,
 			);
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AAB74F41B1612CE002FCA31 /* states.dbf in Resources */,
+				5AAB75031B162112002FCA31 /* Default-568h@2x.png in Resources */,
 				5AAB74F91B1612CE002FCA31 /* states.shx in Resources */,
 				5AAB74F81B1612CE002FCA31 /* states.shp in Resources */,
 				5A75C5221B15FD810036F8F7 /* Images.xcassets in Resources */,
