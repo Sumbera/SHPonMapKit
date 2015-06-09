@@ -1,13 +1,19 @@
 # SHPonMapKit
 Drawing shape file polygons on MapKit
 
+
 Simple & strightforward  test of loading shape file and drawing it on MapKit using drawMapRect. 
-no storyboard, no pods, no swift, plain project using shapelib 
+plain project using shapelib,
+video here: 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=8YAxz_WwvH8
+" target="_blank"><img src="http://img.youtube.com/vi/8YAxz_WwvH8/0.jpg" 
+alt="shape file on mapkit video" width="240" height="180" border="10" /></a>
 
 - draws only polygons so far
 - primitive optimization, no scale optimization
 
-polygons from shapefile are read in  MultiPolygonOverlay : NSObject <MKOverlay>
+polygons from shapefile are read in  MultiPolygonOverlay 
 
         MultiPolygonOverlay *shpPolygonsOverlay =  [[MultiPolygonOverlay alloc]
                                                 initWithLocalShpFile:[resourcePath stringByAppendingPathComponent:@"DOKMPARCELA_P"]];
